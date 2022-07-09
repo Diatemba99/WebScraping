@@ -35,11 +35,19 @@ print(varAge)
 
 
 #5) a) A partir des variables mises à disposition, calculez le taux de conversion et stockez le dans la variable "tauxConversion"
-"""
+
 nombreDeVisites = 26736352
 nombredeConversions = 973520
-tauxConversion = nombreDeVisites / nombredeConversions
+tauxConversion = nombredeConversions /nombreDeVisites
 print(tauxConversion)
-"""
 
+#b) Verifiez le type de la variable en l'imprimant à l'execution de la cellule
+print(type(tauxConversion))
+
+#c) faites en sorte que le taux soit en base 100 plutôt qu'en base 1 (ex : avoir 62 plutot que 0.62)
+tauxEnPourcentage = tauxConversion*100
+print(tauxEnPourcentage)
+
+#d) Imprimez la phrase suivante "Le taux de conversion est (valeur tauxConversion) %"
+print("Le taux de conversion est ", tauxEnPourcentage, " %")
 
