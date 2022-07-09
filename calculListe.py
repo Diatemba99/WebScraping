@@ -34,4 +34,30 @@ print(dicoLetter)
 print("Affichage de la somme")
 print(sum(prix))
 
+#Change values on list::
+dicoLetter[5] = "yessir"
+print(dicoLetter)
 
+
+
+print('===============================')
+#Adding values on list::
+dicoLetter.append("dope")
+print(dicoLetter)
+
+print('=============insert==================')
+#adding values using insert
+dicoLetter.insert(2,'asasa')
+print(dicoLetter)
+
+print('=============remove==================')
+dicoLetter.remove('asasa')
+print(dicoLetter)
+
+print('=============remove using pop==================')
+dicoLetter.pop(2)
+print(dicoLetter)
+
+print('=============clear list content ==================')
+dicoLetter.clear()
+print(dicoLetter)
