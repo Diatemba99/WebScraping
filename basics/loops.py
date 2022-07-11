@@ -37,3 +37,6 @@ nbrElement = len(produit)
 
 for i in range(nbrElement):
     print(produit[i])
+
+for i in range(1,15,2):
+    print(i)    
