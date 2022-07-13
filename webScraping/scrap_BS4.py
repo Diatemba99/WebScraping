@@ -34,7 +34,16 @@ if page.status_code == 200:
 
     #select all span with class text
     citation = parsedPAge.find_all('span', {'class':'text'})
-    print(citation)
+    # print(citation)
+
+    #using only element on specified div and class
+    # TopTenTagsBox = parsedPAge.find('div',{'class':'col-md-4 tags-box'})
+    # TagsOnTagsBox = TopTenTagsBox.find_all('a', {'class':'tag'})
+    # print(TagsOnTagsBox)
+
+    #Doing concat of this instruction
+    TopTenTagsBox = parsedPAge.find('div',{'class':'col-md-4 tags-box'}).find_all('a', {'class':'tag'})
+    print(TopTenTagsBox)
 
 else:
     print('Contenu introuvable') 
