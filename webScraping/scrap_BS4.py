@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from soupsieve import select
 
 page =  requests.get("https://quotes.toscrape.com/")
 # print(page.content)
@@ -14,10 +15,27 @@ if page.status_code == 200:
     parsedPAge = BeautifulSoup(page.content, 'lxml')
     
     #print all content of html page
-    print(parsedPAge)
+    # print(parsedPAge)
 
     #print only div in html page
-    print(parsedPAge.div)
+    # print(parsedPAge.div)
+
+    #print only specified class in html page
+    selectedClass = parsedPAge.find('li',{'class':'next'})
+    #print(selectedClass)
+
+    #print content of top 10 tags
+    TopTenTags = parsedPAge.find('div',{'class':'col-md-4 tags-box'})
+    # print(TopTenTags)
+
+    #select all links on html page
+    lien = parsedPAge.find_all('a')
+    # print(lien)
+
+    #select all span with class text
+    citation = parsedPAge.find_all('span', {'class':'text'})
+    print(citation)
+
 else:
     print('Contenu introuvable') 
 
@@ -29,5 +47,4 @@ else:
 
 
 
-    
-       
+
