@@ -10,5 +10,3 @@ if page.status_code == 200:
     #We're going to print only the content of tags
 print(parsedPAge)    
 print(parsedPAge)    
-print(parsedPAge)    
-print(parsedPAge)    
