@@ -23,6 +23,9 @@ class voiture:
 
 #create and init objet voiture
 maVoiture = voiture("normal",5,4)
+maVoiture = voiture("normal",5,4)
+maVoiture = voiture("normal",5,4)
+maVoiture = voiture("normal",5,4)
 
 #using method on objet
 maVoiture.demarrer_voiture()
