@@ -1,1 +1,91 @@
-[{"citation": "\u201cThe world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.\u201d", "auteur": "Albert Einstein", "tags": ["change", "deep-thoughts", "thinking", "world"]}, {"citation": "\u201cIt is our choices, Harry, that show what we truly are, far more than our abilities.\u201d", "auteur": "J.K. Rowling", "tags": ["abilities", "choices"]}, {"citation": "\u201cThere are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.\u201d", "auteur": "Albert Einstein", "tags": ["inspirational", "life", "live", "miracle", "miracles"]}, {"citation": "\u201cThe person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.\u201d", "auteur": "Jane Austen", "tags": ["aliteracy", "books", "classic", "humor"]}, {"citation": "\u201cImperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.\u201d", "auteur": "Marilyn Monroe", "tags": ["be-yourself", "inspirational"]}, {"citation": "\u201cTry not to become a man of success. Rather become a man of value.\u201d", "auteur": "Albert Einstein", "tags": ["adulthood", "success", "value"]}, {"citation": "\u201cIt is better to be hated for what you are than to be loved for what you are not.\u201d", "auteur": "Andr\u00e9 Gide", "tags": ["life", "love"]}, {"citation": "\u201cI have not failed. I've just found 10,000 ways that won't work.\u201d", "auteur": "Thomas A. Edison", "tags": ["edison", "failure", "inspirational", "paraphrased"]}, {"citation": "\u201cA woman is like a tea bag; you never know how strong it is until it's in hot water.\u201d", "auteur": "Eleanor Roosevelt", "tags": ["misattributed-eleanor-roosevelt"]}, {"citation": "\u201cA day without sunshine is like, you know, night.\u201d", "auteur": "Steve Martin", "tags": ["humor", "obvious", "simile"]}]
+[{
+        "citation": "\u201cThe world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.\u201d",
+        "auteur": "Albert Einstein",
+        "tags": [
+            "change",
+            "deep-thoughts",
+            "thinking",
+            "world"
+        ]
+    },
+    {
+        "citation": "\u201cIt is our choices, Harry, that show what we truly are, far more than our abilities.\u201d",
+        "auteur": "J.K. Rowling",
+        "tags": [
+            "abilities",
+            "choices"
+        ]
+    },
+    {
+        "citation": "\u201cThere are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.\u201d",
+        "auteur": "Albert Einstein",
+        "tags": [
+            "inspirational",
+            "life",
+            "live",
+            "miracle",
+            "miracles"
+        ]
+    },
+    {
+        "citation": "\u201cThe person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.\u201d",
+        "auteur": "Jane Austen",
+        "tags": [
+            "aliteracy",
+            "books",
+            "classic",
+            "humor"
+        ]
+    },
+    {
+        "citation": "\u201cImperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.\u201d",
+        "auteur": "Marilyn Monroe",
+        "tags": [
+            "be-yourself",
+            "inspirational"
+        ]
+    },
+    {
+        "citation": "\u201cTry not to become a man of success. Rather become a man of value.\u201d",
+        "auteur": "Albert Einstein",
+        "tags": [
+            "adulthood",
+            "success",
+            "value"
+        ]
+    },
+    {
+        "citation": "\u201cIt is better to be hated for what you are than to be loved for what you are not.\u201d",
+        "auteur": "Andr\u00e9 Gide",
+        "tags": [
+            "life",
+            "love"
+        ]
+    },
+    {
+        "citation": "\u201cI have not failed. I've just found 10,000 ways that won't work.\u201d",
+        "auteur": "Thomas A. Edison",
+        "tags": [
+            "edison",
+            "failure",
+            "inspirational",
+            "paraphrased"
+        ]
+    },
+    {
+        "citation": "\u201cA woman is like a tea bag; you never know how strong it is until it's in hot water.\u201d",
+        "auteur": "Eleanor Roosevelt",
+        "tags": [
+            "misattributed-eleanor-roosevelt"
+        ]
+    },
+    {
+        "citation": "\u201cA day without sunshine is like, you know, night.\u201d",
+        "auteur": "Steve Martin",
+        "tags": [
+            "humor",
+            "obvious",
+            "simile"
+        ]
+    }
+]
