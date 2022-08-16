@@ -25,6 +25,13 @@ for citation in div_citations:
     list_citations.append(extract_data(citation))
 data_pd = pd.DataFrame.from_dict(list_citations)
 
-data_pd.to_json('e:\COURSES\CODES\WEBSCRAPING\EXO\webScraping\citations.json')
-data_pd.to_csv('e:\COURSES\CODES\WEBSCRAPING\EXO\webScraping\citations.csv')
+
+
+
+
+
+
+
+#data_pd.to_json('e:\COURSES\CODES\WEBSCRAPING\EXO\webScraping\citations.json')
+#data_pd.to_csv('e:\COURSES\CODES\WEBSCRAPING\EXO\webScraping\citations.csv')
 
